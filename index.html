@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- using module type cuz using ES6 modules -->
+    <script src="script.js" type="module"></script>
+</head>
+<body>
+    <!-- using class world to scale it of -->
+    <div class="world" data-world>
+        <div class="score">0</div>
+        <div class="start-screen">Press Any Key To Strart</div>
+        <!-- the ground is repeated 2 times to stitch them up  -->
+        <img src="imgs/ground.png" class="ground" data-ground>
+        <img src="imgs/ground.png" class="ground" data-ground>
+        <img src="imgs/dino-stationary.png" class="dino">
+
+    </div>
+</body>
+</html>
